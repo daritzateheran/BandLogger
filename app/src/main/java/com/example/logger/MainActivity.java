@@ -81,8 +81,6 @@ public class MainActivity extends AppCompatActivity {
 
             viewport.setMaxX(pointsPlotted);
             viewport.setMinX(pointsPlotted - 100);
-
-
         }
 
         @Override
