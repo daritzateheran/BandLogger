@@ -46,8 +46,8 @@ public class LogRegistration extends com.sonyericsson.extras.liveware.extension.
 
     @Override
     public ContentValues getExtensionRegistrationConfiguration() {
-        //String iconHostapp = ExtensionUtils.getUriString(mContext, R.drawable.icon);
-        //String iconExtension = ExtensionUtils.getUriString(mContext, R.drawable.icon);
+        String iconHostapp = ExtensionUtils.getUriString(mContext, R.mipmap.ic_launcher);
+        String iconExtension = ExtensionUtils.getUriString(mContext, R.mipmap.ic_launcher);
 
         ContentValues values = new ContentValues();
 
